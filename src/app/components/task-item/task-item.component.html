@@ -3,4 +3,5 @@
         <button (click)="onDelete(task)">Delete</button>
     </h3>
     <p>{{ task.day }}</p>
+    <span (dblclick)="onToggle(task)">Reminder: {{task.reminder}}</span>
 </div>
